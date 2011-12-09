@@ -1,0 +1,108 @@
+<!doctype html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]|(gt IEMobile 7)><!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+  		<meta charset="utf-8">
+  		<title></title>
+  		<meta name="description" content="">
+  		<meta name="author" content="">
+
+		<!-- From 320 and Up -->
+  		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+  		<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	  	<!-- For iPhone 4 -->
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
+		<!-- For iPad 1-->
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
+		<!-- For iPhone 3G, iPod Touch and Android -->
+		<link rel="apple-touch-icon-precomposed" href="/assets/img/icons/apple-touch-icon-57x57-precomposed.png.png">
+		<!-- For Nokia -->
+		<link rel="shortcut icon" href="/assets/img/icons/apple-touch-icon.png">
+
+  		<!-- Stylesheet -->
+  		<link rel="stylesheet" href="/assets/css/style.css">
+  
+  		<!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  		<!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
+       	Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
+       for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
+  		<!--[if (lt IE 9) & (!IEMobile)]>
+		<script src="/assets/js/libs/selectivizr-min.js"></script>
+		<![endif]-->
+  		<script src="/assets/js/libs/modernizr-2.0.6.min.js"></script>
+  
+		<!--iOS. Delete if not required -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="apple-touch-startup-image" href="/assets/img/icons/splash.png">
+		
+		<!--Microsoft. Delete if not required -->
+		<meta http-equiv="cleartype" content="on">
+		
+		<link rel="alternate" type="application/atom+xml" href="/feed/">
+</head>
+
+	<body>
+  		<header>
+
+  		</header>
+  			<div role="main">
+
+  			</div>
+  		<footer>
+
+  		</footer>
+
+
+  	<!-- JavaScript at the bottom for fast page loading -->
+
+  	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  	<script>window.jQuery || document.write('<script src="/assets/js/libs/jquery-1.6.4.min.js"><\/script>')</script>
+	
+  	<!-- scripts concatenated and minified via build script -->
+  	<script defer src="/assets/js/plugins.js"></script>
+  	<script defer src="/assets/js/script.js"></script>
+  	<script defer src="/assets/js/mylibs/helper.js"></script>
+  	<!-- end scripts -->
+  	<!--[if (lt IE 9) & (!IEMobile)]>
+	<script src="/assets/js/libs/imgsizer.js"></script>
+	<![endif]-->
+<script>
+	// iOS scale bug fix
+	   window.onload = function() {
+        MBP.scaleFix();
+    }
+	// Respond.js
+	yepnope({
+	test : Modernizr.mq('(min-width)'),
+	nope : ['/assets/js/libs/respond.min.js']
+});
+	</script>
+
+
+  	<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  	<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  	</script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
