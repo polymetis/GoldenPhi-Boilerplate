@@ -1,4 +1,4 @@
-//@codekit-prepend "golden-phi-scripts.js"
+//@codekit-prepend "golden-phi-atlas.js"
 
 // Site Specific Scripts
 
