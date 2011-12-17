@@ -68,7 +68,7 @@ else
     echo "Created Directory: $dst"
 
     cd -- "$src"
-    cp -vr -- assets build test *.html *.xml *.txt *.png *.ico .htaccess "$dst"
+    cp -vr -- assets build *.html *.xml *.txt *.png *.ico .htaccess "$dst"
 
     #success message
     echo "Created Project: $dst"
